@@ -1,1 +1,8 @@
-
+{
+"name": "RailMaint L5 HVAC",
+"short_name": "RailMaint",
+"start_url": "../frontend/index.html",
+"display": "standalone",
+"background_color": "#ffffff",
+"theme_color": "#4B2E83"
+}
