@@ -1,1 +1,73 @@
+<!DOCTYPE html>
 
+<html>
+
+<head>
+
+<title>Registro de Manutenção HVAC</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h2>Registro de Manutenção HVAC</h2>
+
+<form id="formManutencao">
+
+<label>Trem</label>
+<input type="text" id="trem" required>
+
+<label>Carro</label>
+<input type="text" id="carro" required>
+
+<label>Unidade HVAC</label>
+<select id="equipamento">
+
+<option>Evaporador</option>
+<option>Compressor</option>
+<option>Ventilador</option>
+<option>Condensador</option>
+
+</select>
+
+<label>Tipo de manutenção</label>
+
+<select id="tipo">
+
+<option>Preventiva</option>
+<option>Preditiva</option>
+<option>Corretiva</option>
+
+</select>
+
+<label>Falha encontrada</label>
+
+<textarea id="falha"></textarea>
+
+<label>Ação executada</label>
+
+<textarea id="acao"></textarea>
+
+<label>Técnico</label>
+
+<input type="text" id="tecnico">
+
+<label>Foto da manutenção</label>
+
+<input type="file" accept="image/*" capture="camera">
+
+<button type="submit">
+
+Salvar registro
+
+</button>
+
+</form>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
