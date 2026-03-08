@@ -1,1 +1,55 @@
+<!DOCTYPE html>
 
+<html>
+
+<head>
+
+<title>RailMaint L5 HVAC</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="manifest" href="../mobile/manifest.json">
+
+</head>
+
+<body>
+
+<h1>RailMaint L5 HVAC</h1>
+
+<h2>Manutenção de Ar Condicionado L5</h2>
+
+<div class="menu">
+
+<button onclick="location.href='manutencao.html'">
+
+Registrar Manutenção
+
+</button>
+
+<button onclick="location.href='historico.html'">
+
+Histórico
+
+</button>
+
+<button onclick="location.href='dashboard.html'">
+
+Dashboard
+
+</button>
+
+</div>
+
+<script>
+
+if('serviceWorker' in navigator){
+
+navigator.serviceWorker.register('../mobile/service-worker.js')
+
+}
+
+</script>
+
+</body>
+
+</html>
